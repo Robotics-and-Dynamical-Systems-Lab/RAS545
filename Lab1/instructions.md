@@ -78,7 +78,7 @@ Connect the USB cable to the cobot's M5 Stack as shown in the first image:
 Extract the Basic Flasher zip file. In the firmware selection, select "Transponder". The Terminal should be Basic and Port should be COMPORT to which the robot is connected to.
 See image below:
 
-![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/transponder.jpeg)
+![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/transponder.png)
 Click burn to flash the Basic Firmware into M5 Stack.
 
 After completing the above steps, your cobot is ready to be programmed via Python. 
