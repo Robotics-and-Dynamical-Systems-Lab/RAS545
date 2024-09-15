@@ -103,7 +103,7 @@ Anaconda Installation Instructions
    - **Check** the option to add Anaconda to your PATH environment variable (optional but recommended).
 
    If you are on a linux machine, open a terminal and navigate to the directory where the `.sh` file is located. Then, run the following command:
-   ```bash
+   ```
    bash Anaconda3-*.sh
    ```
 
@@ -112,14 +112,14 @@ Anaconda Installation Instructions
 3. **Configure the Shell**:
    If you are on Mac, If you’re using **zsh** (the default on macOS Catalina and later) or **bash**, add Anaconda to your shell profile by running:
 
-   ```bash
+   ```
    echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.zshrc
    source ~/.zshrc
    ```
 
    If you are on ubuntu using bash: 
 
-   ```bash
+   ```
    echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bash_profile
    source ~/.bash_profile
    ```
@@ -132,24 +132,24 @@ Anaconda Installation Instructions
 5. **Verify Installation**:
    Open a command prompt and run:
 
-   ```bash
+   ```
    conda --version
    ```
 
 6. Install Python in new environment
    Open a command prompt and activate conda
 
-   ```bash
+   ```
    conda activate base
    ```
 
-   ```bash
+   ```
    conda create --name myenv python=3.10
    ```
 
    Enter the desired name of your environment instead of myenv. 
 
-   ```bash
+   ```
    conda activate myenv
    ```
 
@@ -174,7 +174,7 @@ You may install Python natively, but this is not recommended, as environment man
 4. **Verify Installation**:
    - Open a command prompt and run the following command to verify the installation:
 
-     ```bash
+     ```
      python --version
      ```
 
@@ -200,7 +200,7 @@ You may install Python natively, but this is not recommended, as environment man
     echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc 
     ```
 
-    ```bash
+    ```
     source ~/.zshrc
     ```
 
@@ -210,34 +210,34 @@ You may install Python natively, but this is not recommended, as environment man
 
     - **For Ubuntu/Debian**:
 
-        ```bash
+        ```
         sudo apt update
         sudo apt install python3 python3-pip
         ```
 
     - **For Fedora**:
 
-        ```bash
+        ```
         sudo dnf install python3
         ```
 
     - **For Arch Linux**:
 
-        ```bash
+        ```
         sudo pacman -S python
         ```
 
     2. **Configure Environment** (Optional):
     If needed, you can configure your shell to use `python3` as the default Python version by creating an alias:
 
-    ```bash
+    ```
     echo 'alias python=python3' >> ~/.bashrc
     source ~/.bashrc
     ```
 
 **4. Install pymycobot**
 
-```bash
+```
 pip install pymycobot
 ```
 
@@ -246,7 +246,7 @@ pip install pymycobot
 
 First check if you have the right packages by listing them: 
 
-```bash
+```
 pip list
 ```
 
