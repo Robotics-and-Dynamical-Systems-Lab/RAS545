@@ -175,28 +175,28 @@ You may install Python natively, but this is not recommended, as environment man
 4. **Verify Installation**:
    - Open a command prompt and run the following command to verify the installation:
 
-     ```
-     python --version
-     ```
+   ```
+   python --version
+   ```
 
 This should display the installed version of Python.
 
 
 #### 2. Install Python on macOS
-   1. **Download the Installer** :
-    - Visit the [Python Downloads Page](https://www.python.org/downloads/).
-    - Choose the **macOS** version and download the `.pkg` file for the latest Python release.
 
-   2. **Run the Installer** :
-    - Double-click the downloaded `.pkg` file to start the installation.
-    - Follow the installation prompts.
+1. **Download the Installer** :
+   - Visit the [Python Downloads Page](https://www.python.org/downloads/).
+   - Choose the **macOS** version and download the `.pkg` file for the latest Python release.
 
-   3. **Update Shell Profile** (Optional):
-    If the installed Python version is not the default version, you can update your shell profile.
+2. **Run the Installer** :
+   - Double-click the downloaded `.pkg` file to start the installation.
+   - Follow the installation prompts.
 
+3. **Update Shell Profile** (Optional):
+   If the installed Python version is not the default version, you can update your shell profile.
    For **zsh** (default on macOS Catalina and later):
 
-   ```bash
+   ```
    echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc 
    ```
 
@@ -206,33 +206,36 @@ This should display the installed version of Python.
 
 #### 3. Install Python on linux
 
-   1. Open a terminal and run the following commands based on your distribution:
+1. Open a terminal and run the following commands based on your distribution:
 
-   - **For Ubuntu/Debian**:
+- **For Ubuntu/Debian**:
+```
+sudo apt update
+sudo apt install python3 python3-pip
+```
+   
+- **For Fedora**:
 
-       ```
-       sudo apt update
-       sudo apt install python3 python3-pip
-       ```
-   - **For Fedora**:
+```
+sudo dnf install python3
+```
 
-       ```
-       sudo dnf install python3
-       ```
+- **For Arch Linux**:
 
-   - **For Arch Linux**:
+```
+sudo pacman -S python
+```
 
-       ```
-       sudo pacman -S python
-       ```
+2. Configure Environment (Optional):
+If needed, you can configure your shell to use `python3` as the default Python version by creating an alias:
 
-   2. **Configure Environment** (Optional):
-   If needed, you can configure your shell to use `python3` as the default Python version by creating an alias:
-
-   ```
-   echo 'alias python=python3' >> ~/.bashrc
-   source ~/.bashrc
-   ```
+```
+echo 'alias python=python3' >> ~/.bashrc
+```
+source bashrc.
+```
+source ~/.bashrc
+```
 
 **4. Install pymycobot**
 
@@ -251,6 +254,7 @@ pip list
 
 
 Perform the following tasks to complete your lab demonstration:
-###1. Calibrate your robot
-###2. Move the cobot
+
+### 1. Calibrate your robot
+### 2. Move the cobot
 
