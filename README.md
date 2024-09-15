@@ -13,8 +13,8 @@ Analysis and design of robotic systems focusing on kinematics, dynamics, coordin
 
 ## Laboratory Software
 1. MATLAB: See how to obtain license for MATLAB for ASU students. Instructions to install MATLAB can be found [here](https://ets.engineering.asu.edu/research/software-collaboration-tools/). Scroll down the page to find MATLAB installation instructions.
-2. SolidWorks: See how to obtain license for SolidWorks for ASU students. SolidWorks can be installated for ASU students from myapps.asu.edu.
-3. Python: Python is a free and open-sourced programming language. See how to install Python on your system [here](). 
+2. SolidWorks: See how to obtain license for SolidWorks for ASU students. SolidWorks can be installated for ASU students from [myapps.asu.edu](https://myapps.asu.edu).
+3. Python: Python is a free and open-sourced programming language. See how to install Python on your system [here](https://www.python.org/downloads/). 
 4. ROS: ROS is a free and open-sourced robotics middleware. See how to install ROS 2 [here](https://docs.ros.org/en/jazzy/Installation.html). You may also install ROS 1 depending on your OS platform.
 5. Text editor: Choose a Text-editor of your choice. Recommended text editor for this course is VS Code. See how to install VS Code [here](https://code.visualstudio.com/download).
 
