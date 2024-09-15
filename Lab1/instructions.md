@@ -79,6 +79,7 @@ Extract the Basic Flasher zip file. In the firmware selection, select "Transpond
 See image below:
 
 ![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/transponder.png)
+
 Click burn to flash the Basic Firmware into M5 Stack.
 
 After completing the above steps, your cobot is ready to be programmed via Python. 
@@ -178,62 +179,60 @@ You may install Python natively, but this is not recommended, as environment man
      python --version
      ```
 
-   This should display the installed version of Python.
+This should display the installed version of Python.
 
 
 #### 2. Install Python on macOS
-
-    1. **Download the Installer** :
+   1. **Download the Installer** :
     - Visit the [Python Downloads Page](https://www.python.org/downloads/).
     - Choose the **macOS** version and download the `.pkg` file for the latest Python release.
 
-    2. **Run the Installer** :
+   2. **Run the Installer** :
     - Double-click the downloaded `.pkg` file to start the installation.
     - Follow the installation prompts.
 
-    3. **Update Shell Profile** (Optional):
+   3. **Update Shell Profile** (Optional):
     If the installed Python version is not the default version, you can update your shell profile.
 
-    For **zsh** (default on macOS Catalina and later):
+   For **zsh** (default on macOS Catalina and later):
 
-    ```bash
-    echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc 
-    ```
+   ```bash
+   echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc 
+   ```
 
-    ```
-    source ~/.zshrc
-    ```
+   ```
+   source ~/.zshrc
+   ```
 
 #### 3. Install Python on linux
 
-    1. Open a terminal and run the following commands based on your distribution:
+   1. Open a terminal and run the following commands based on your distribution:
 
-    - **For Ubuntu/Debian**:
+   - **For Ubuntu/Debian**:
 
-        ```
-        sudo apt update
-        sudo apt install python3 python3-pip
-        ```
+       ```
+       sudo apt update
+       sudo apt install python3 python3-pip
+       ```
+   - **For Fedora**:
 
-    - **For Fedora**:
+       ```
+       sudo dnf install python3
+       ```
 
-        ```
-        sudo dnf install python3
-        ```
+   - **For Arch Linux**:
 
-    - **For Arch Linux**:
+       ```
+       sudo pacman -S python
+       ```
 
-        ```
-        sudo pacman -S python
-        ```
+   2. **Configure Environment** (Optional):
+   If needed, you can configure your shell to use `python3` as the default Python version by creating an alias:
 
-    2. **Configure Environment** (Optional):
-    If needed, you can configure your shell to use `python3` as the default Python version by creating an alias:
-
-    ```
-    echo 'alias python=python3' >> ~/.bashrc
-    source ~/.bashrc
-    ```
+   ```
+   echo 'alias python=python3' >> ~/.bashrc
+   source ~/.bashrc
+   ```
 
 **4. Install pymycobot**
 
