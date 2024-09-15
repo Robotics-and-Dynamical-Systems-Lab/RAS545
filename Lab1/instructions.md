@@ -22,7 +22,7 @@ This lab activity introduces programming the cobot with Python and enables the u
 
 ## Setup your cobot system
 
-**1. MyStudio**\
+### 1. MyStudio
 The mycobot 280 M5 is based on the [M5 development stack](https://github.com/m5stack). MyStudio is a comprehensive for all cobot firmware burning, documentation, tutorials.
 MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded from its github release. MyStudio app image is unavailable for linux x86_64 builds. Hence for first time setup, use a Windows/Mac x86_64 build to flash the firmware into the robot. Firmware flashing is a one-time process, and is independent of the OS being used to flash it. Once flashed, a user can use Windows/Mac/Linux to program the robot. 
  
@@ -48,23 +48,23 @@ Note down the terminal to which the cobot is connected. Select language as Engli
 **Side Note:**\
 If you'll be using a linux machine after flashing, run the following command to enlist all terminals.
 
-```bash
+```
 sudo dmesg | grep tty
 ```
 
 or enlist all teletype terminals via the command:
 
-```bash
+```
 cd ~
 ```
 
-```bash
+```
 ls /dev/tty*
 ```
 
 The name of the terminal can be identified from this list.
 
-###2. Flashing the firmware
+### 2. Flashing the firmware
 
 **2a. Flashing Atom**\
 Connect the usb cable to the USB port in the robot's end effector 
