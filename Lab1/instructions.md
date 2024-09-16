@@ -255,7 +255,6 @@ First check if you have the right packages by listing them:
 pip list
 ```
 
-
 ## Lab 1 Tasks
 
 Perform the following tasks after following the steps before to complete your lab demonstration:
