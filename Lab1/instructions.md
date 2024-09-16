@@ -29,18 +29,18 @@ MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded fr
 MyStudio installer can be downloaded from [github](https://github.com/elephantrobotics/myStudio) or from its [webpage](https://www.elephantrobotics.com/myCobot/#myStudio).
 Use a usb type C cable to connect the M5 stack with the cobot (as shown in the picture below).
 
-![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/usb.jpeg)
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/usb.jpeg" alt="image" width="500" height="auto">
 
 Run installer as administrator and allow prompts from firewall for installing. After installation open the Basic section (shown below). 
 
-![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/basic.jpeg)
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/basic.jpeg" alt="image" width="500" height="auto">
 
 The software should automatically detect the cobot version and the USB port. If not select it manually and click login. 
 The USB port number can be found in device manager in Windows or System Report in Mac.  
 
 Here's an image of how the comports should look:
 
-![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/image.png)
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/image.png" alt="image" width="500" height="auto">
 
 Note down the terminal to which the cobot is connected. Select language as English, Location as "other regions" and click login.
 
@@ -66,10 +66,14 @@ The name of the terminal can be identified from this list.
 
 ### 2. Flashing the firmware
 
+The picture below describes the hardware to which the firmware is flashed. 
+
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/firmware.jpeg" alt="image" width="500" height="auto">
+
 **2a. Flashing Atom**\
 Connect the usb cable to the USB port in the robot's end effector 
 
-Go to AtomMain in Basic section in MyStudio. Download the latest firmware and burn Atom.
+Go to AtomMain in Basic section in MyStudio. Download the latest firmware and burn Atom. Disconnect the USB cable and close MyStudio.
 
 **2b. Flashing Basic**\
 Click on this [link](https://github.com/elephantrobotics/myCobot/releases/download/0/myCobot._windows_x64.zip), to download Basic Flasher for Windows. 
@@ -78,7 +82,7 @@ Connect the USB cable to the cobot's M5 Stack as shown in the first image:
 Extract the Basic Flasher zip file. In the firmware selection, select "Transponder". The Terminal should be Basic and Port should be COMPORT to which the robot is connected to.
 See image below:
 
-![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/transponder.png)
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/transponder.png" alt="image" width="500" height="auto">
 
 Click burn to flash the Basic Firmware into M5 Stack.
 
@@ -240,7 +244,7 @@ source ~/.bashrc
 **4. Install pymycobot**
 
 ```
-pip install pymycobot
+pip install pymycobot==3.4.6
 ```
 
 
