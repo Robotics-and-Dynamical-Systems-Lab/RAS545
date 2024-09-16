@@ -22,7 +22,9 @@ This lab activity introduces programming the cobot with Python and enables the u
 
 ## Setup your cobot system
 
-### 1. MyStudio
+### 1. Power up your cobot
+
+### 2. MyStudio
 The mycobot 280 M5 is based on the [M5 development stack](https://github.com/m5stack). MyStudio is a comprehensive for all cobot firmware burning, documentation, tutorials.
 MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded from its github release. MyStudio app image is unavailable for linux x86_64 builds. Hence for first time setup, use a Windows/Mac x86_64 build to flash the firmware into the robot. Firmware flashing is a one-time process, and is independent of the OS being used to flash it. Once flashed, a user can use Windows/Mac/Linux to program the robot. 
  
@@ -64,7 +66,7 @@ ls /dev/tty*
 
 The name of the terminal can be identified from this list.
 
-### 2. Flashing the firmware
+### 3. Flashing the firmware
 
 The picture below describes the hardware to which the firmware is flashed. 
 
@@ -88,7 +90,7 @@ Click burn to flash the Basic Firmware into M5 Stack.
 
 After completing the above steps, your cobot is ready to be programmed via Python. 
 
-### 3. Install Python 
+### 4. Install Python 
 
 MyCobot can be interfaced with Python via the pymycobot API. If you do not have Python installed in your system follow the steps below:
 
@@ -158,7 +160,7 @@ Anaconda Installation Instructions
    conda activate myenv
    ```
 
-#### 3a. Native installation (Not Recommended)
+#### 4a. Native installation (Not Recommended)
 
 You may install Python natively, but this is not recommended, as environment managers allow for isolation of dependencies to avoid conflicts with other tools .
 
@@ -241,7 +243,7 @@ source bashrc.
 source ~/.bashrc
 ```
 
-**4. Install pymycobot**
+**5. Install pymycobot**
 
 ```
 pip install pymycobot==3.4.6
@@ -257,8 +259,34 @@ pip list
 ```
 
 
-Perform the following tasks to complete your lab demonstration:
+## Lab 1 Tasks
 
-### 1. Calibrate your robot
-### 2. Move the cobot
+Perform the following tasks after following the steps before to complete your lab demonstration:
+
+The tasks mentioned below involve python scripts to perform robot manipulation. The python scripts are to be completed in order to execute the tasks. 
+
+### 1. Release all servos
+A cobot may be in a rigid state where all its joint servos are engaged. Power up the cobot and connect the cobot to your computer via a USB type C cable. View the comports to identify the COM address and execute the python program to [release the servos](). 
+
+Once released the servos will disengage and the joints can be moved freely. 
+
+### 2. Calibrate the robot
+**Warning**: Robot calibration should be performed only after servos have been released. Execute the python program to [release the servos](). 
+
+Only after servos have been released, manually set the joint angles such that their relative angular position is 0. See the picture below.
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/alignment.jpeg" alt="image" width="500" height="auto">
+
+Execute the python program to [calibrate the robot]()
+
+### 3. Move the cobot
+Once calibrated, execute the python program to [send joint angles]() to robot. 
+
+### 4. Get cobot state
+**Warning**: Visit the [gitbook - joint orientations](https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.6.1-IntroductionOfProductParameters.html) to view the range of robot joint angles and the orientation of the joint angles before executing send_angles() method. **Note**: A robot has limits in its ability to traverse 3D space. 
+
+Play around with the cobot to move it to different locations. Run the Python program to send the cobot to a [desired location]() and print the state of its end-effector (position and orientation). 
+
+Complete all the above programs to complete the lab 1 demonstration.
+
+
 
