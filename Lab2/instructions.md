@@ -7,7 +7,7 @@ This laboratory activity is to validate the homogenous transformations of mycobo
 3. Read the product parameters of mycobot before proceeding with this lab. 
 4. **Warning**: Do NOT exceed the joint angle limits on the cobot. See image below:
 
-<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/limits.jpeg" alt="image" width="1000" height="300">
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/limits.jpeg" alt="image" width="1000" height="270">
 
 ## Software Requirements
 
