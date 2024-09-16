@@ -48,7 +48,7 @@ Note down the terminal to which the cobot is connected. Select language as Engli
 
 
 **Side Note:**\
-If you'll be using a linux machine after flashing, run the following command to enlist all terminals.
+If you'll be using a linux machine or a macOS after flashing, run the following command to enlist all terminals.
 
 ```
 sudo dmesg | grep tty
