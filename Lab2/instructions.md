@@ -7,7 +7,7 @@ This laboratory activity is to validate the homogenous transformations of mycobo
 3. Read the product parameters of mycobot before proceeding with this lab. 
 4. **Warning**: Do NOT exceed the joint angle limits on the cobot. See image below:
 
-<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/limits.jpeg" alt="image" width="500" height="auto">
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/limits.jpeg" alt="image" width="500" height="300">
 
 ## Software Requirements
 
@@ -37,8 +37,8 @@ Enlist the transformation matrices in terms of symbolic theta values i.e. 0H1, 1
 | 0  | 0  | 0  | 0  |-20 | 30 |
 | 90 | 0  |-90 | 0  | 0  | 10 |
 
-**DIY**: Students may try alternate combinations of joint angles, and verify them with pymycobot (see point 4). 
+**DIY**: *Students may try alternate combinations of joint angles, and verify them with pymycobot (see point 4)*. 
 
-4. Run the send_angles() method with the arguments as the above joint angles, and then run get_angles() and get_coords(). Do the position and orientation match ? You may use the code templates provided in the [Lab 2 programs folder]().
+4. Run the send_angles() method with the arguments as the above joint angles, and then run get_angles() and get_coords(). Do the position and orientation match ? You may use the code templates provided in the [Lab 2 programs folder]https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/tree/fall2024/Lab2/lab2_programs).
 
 5. Tabulate your responses and compare the results. Document your code and take screenshots of MATLAB outputs vs pymycobot outputs. Take a video of the operation of the cobot in any one of the above joint angle sets or that of your own.
