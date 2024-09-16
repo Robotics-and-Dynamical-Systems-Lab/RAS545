@@ -73,7 +73,8 @@ The picture below describes the hardware to which the firmware is flashed.
 <img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/firmware.jpeg" alt="image" width="500" height="auto">
 
 **2a. Flashing Atom**\
-Connect the usb cable to the USB port in the robot's end effector 
+Connect the usb cable to the USB port in the robot's end effector. See image below 
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/atom.jpeg" alt="image" width="500" height="auto">
 
 Go to AtomMain in Basic section in MyStudio. Download the latest firmware and burn Atom. Disconnect the USB cable and close MyStudio.
 
@@ -94,11 +95,7 @@ After completing the above steps, your cobot is ready to be programmed via Pytho
 
 MyCobot can be interfaced with Python via the pymycobot API. If you do not have Python installed in your system follow the steps below:
 
-#### 3a. Install via environment manager (Recommended)
-
-Anaconda Installation Instructions
-
-#### Install Anaconda on Windows/Mac
+#### 4a. Install via Anaconda environment manager (Recommended)
 
 1. **Download the Installer**:
    - Visit the [Anaconda Downloads Page](https://www.anaconda.com/products/distribution#download-section).
@@ -160,7 +157,7 @@ Anaconda Installation Instructions
    conda activate myenv
    ```
 
-#### 4a. Native installation (Not Recommended)
+#### 4b. Native installation (Not Recommended)
 
 You may install Python natively, but this is not recommended, as environment managers allow for isolation of dependencies to avoid conflicts with other tools .
 
@@ -266,25 +263,25 @@ Perform the following tasks after following the steps before to complete your la
 The tasks mentioned below involve python scripts to perform robot manipulation. The python scripts are to be completed in order to execute the tasks. 
 
 ### 1. Release all servos
-A cobot may be in a rigid state where all its joint servos are engaged. Power up the cobot and connect the cobot to your computer via a USB type C cable. View the comports to identify the COM address and execute the python program to [release the servos](). 
+A cobot may be in a rigid state where all its joint servos are engaged. Power up the cobot and connect the cobot to your computer via a USB type C cable. View the comports to identify the COM address and execute the python program to [release the servos](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab1/lab1_programs/release_servos.py). 
 
 Once released the servos will disengage and the joints can be moved freely. 
 
 ### 2. Calibrate the robot
-**Warning**: Robot calibration should be performed only after servos have been released. Execute the python program to [release the servos](). 
+**Warning**: Robot calibration should be performed only after servos have been released. Execute the python program to [release the servos](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab1/lab1_programs/release_servos.py). 
 
 Only after servos have been released, manually set the joint angles such that their relative angular position is 0. See the picture below.
 <img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/alignment.jpeg" alt="image" width="500" height="auto">
 
-Execute the python program to [calibrate the robot]()
+Execute the python program to [calibrate the robot](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab1/lab1_programs/calibration.py)
 
 ### 3. Move the cobot
-Once calibrated, execute the python program to [send joint angles]() to robot. 
+Once calibrated, execute the python program to [send joint angles](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab1/lab1_programs/send_angles.py) to robot. 
 
 ### 4. Get cobot state
 **Warning**: Visit the [gitbook - joint orientations](https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.6.1-IntroductionOfProductParameters.html) to view the range of robot joint angles and the orientation of the joint angles before executing send_angles() method. **Note**: A robot has limits in its ability to traverse 3D space. 
 
-Play around with the cobot to move it to different locations. Run the Python program to send the cobot to a [desired location]() and print the state of its end-effector (position and orientation). 
+Play around with the cobot to move it to different locations. Run the Python program to send the cobot to a [desired location](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab1/lab1_programs/get_cobot_state.py) and print the state of its end-effector (position and orientation). 
 
 Complete all the above programs to complete the lab 1 demonstration.
 
