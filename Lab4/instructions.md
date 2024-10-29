@@ -28,23 +28,32 @@ The following are some important resources that will help in developing the know
 2. Make a digital twin of the cobot pro 600 (3 point)
 
 Warning: Make sure the robot is calibrated !
+
 3. Program the cobot pro 600 using socket programming. (5 points)
+
    3.1 Connect the pro 600 robot to a monitor, keyboard and mouse.
+      
    3.2 Turn on the robot power and log into roboflow OS using the password: elephant.
-   3.3 Connect the robot to your computer via the ethernet cable. 
-   3.3 Go to Tools -> Configuration -> Network/Serial Port. Click on Start under the TCP Server section. 
-   3.4 Bring the robot to the home position using Return to Home function. 
-   3.5 Execute the python code to send cobot commands. The python code enables your desktop to connect to the robot's IP address. 
-   3.6 Learn more on how to send cobot commands via Python sockets. A python file is already provided for you [here]()
-   3.7 You can use any other language to send the cobot commands. 
    
-4. Connect the AI kit camera to your computer. (1 marks)
+   3.3 Connect the robot to your computer via the ethernet cable. 
+   
+   3.4 Go to Tools -> Configuration -> Network/Serial Port. Click on Start under the TCP Server section. 
+   
+   3.5 Bring the robot to the home position using Return to Home function. 
+   
+   3.6 Execute the python code to send cobot commands. The python code enables your desktop to connect to the robot's IP address. 
+   
+   3.7 Learn more on how to send cobot commands via Python sockets. A python file is already provided for you [here]()
+   
+   3.8 You can use any other language to send the cobot commands. 
+   
+5. Connect the AI kit camera to your computer. (1 marks)
 
-5. Within the workspace place two arUco markers. 
+6. Within the workspace place two arUco markers. 
 
-6. Plan the robot path in the digital twin such that the robot moves between the two points in a straight line. (5 marks)
+7. Plan the robot path in the digital twin such that the robot moves between the two points in a straight line. (5 marks)
 
-7. Execute the robot path after verifying the robot kinematics in digital twin. (4 marks)
+8. Execute the robot path after verifying the robot kinematics in digital twin. (4 marks)
 
 
 ## Upload:
