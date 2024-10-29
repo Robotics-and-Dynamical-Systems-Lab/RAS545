@@ -43,7 +43,7 @@ Warning: Make sure the robot is calibrated !
    
    3.6 Execute the python code to send cobot commands. The python code enables your desktop to connect to the robot's IP address. 
    
-   3.7 Learn more on how to send cobot commands via Python sockets. A python file to connect to the robot via the ethernet cable is already provided for you [here](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab4/Python_TCP/tcp_control.py). Matlab files to connect to the robot via the ethernet cable is available [here](). 
+   3.7 Learn more on how to send cobot commands via Python sockets. A python file to connect to the robot via the ethernet cable is already provided for you [here](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Lab4/Python_TCP/tcp_control.py). Matlab files to connect to the robot via the ethernet cable is available [here](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/tree/fall2024/Lab4/MATLAB_TCP). 
    
    3.8 You can use any other language to send the cobot commands. 
    
