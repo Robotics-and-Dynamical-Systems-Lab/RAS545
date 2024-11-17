@@ -48,7 +48,7 @@ Go through all the literature references. They'll be helpful in developing the p
    - View the [help](https://www.mazegenerator.net/Help.aspx) about the maze generator tool. 
    - Below is a sample image of a randomly generated 4x4 maze starting from the top. 
 
-<img src="[https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/basic.jpeg](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Final_Project/sample_mazes/Picture2.png)" alt="image" width="500" height="auto">
+<img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Final_Project/sample_mazes/Picture2.png" alt="image" width="500" height="auto">
 
 1b. **Solving the maze**: Students must determine an algorithm to solve the 4x4 maze
    - The algorithm to solve the maze must produce the physical waypoints for navigating the solution path from its image. Hence a physical interpretation of the robot's workspace must be obtained from pixel values of the solution path. 
