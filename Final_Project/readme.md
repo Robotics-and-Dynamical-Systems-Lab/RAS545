@@ -52,7 +52,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 1b. **Solving the maze**: Students must determine an algorithm to solve the 4x4 maze
    - The algorithm to solve the maze must produce the physical waypoints for navigating the solution path from its image. Hence a physical interpretation of the robot's workspace must be obtained from pixel values of the solution path. 
-   - The way points are represented with the numbered green points on the image below. The numbering starts from the top for a maze generated from the top.
+   - The way points are represented with the numbered green points on the image above. The numbering starts from the top for a maze generated from the top.
    - The number of waypoints would depend on the structure of the maze. 
 
 ### 2: Digital Twin Path Planning 
