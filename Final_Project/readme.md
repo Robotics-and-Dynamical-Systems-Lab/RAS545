@@ -23,7 +23,17 @@ Go through all the literature references. They'll be helpful in developing the p
 - **MATLAB TCP/IP Communication**: [Learn More](https://www.mathworks.com/help/matlab/matlab-engine/tcp-ip-communication.html)
 - **ArUco Markers**: [Overview of ArUco Markers](https://www.vision.ee.ethz.ch/en/vision/software/aruco.html)
 - **OpenCV for ArUco Detection**: [OpenCV Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
-
+- Learning Orbis's Robotics playlist for modeling robots in MATLAB. See [here](https://www.youtube.com/playlist?list=PLWF9TXck7O_ymYWT8Q33omPb5K-A5v4Ae)
+- Simcape Multibody simulation in MATLAB. See [here](https://www.youtube.com/watch?v=pDiwAA1cnb0&t=2283s)
+- Robot forward kinematics in MATLAB. See [here](https://www.youtube.com/watch?v=xpA8TKEMpMk)
+- Robot trajectory planning in MATLAB. See [here](https://www.youtube.com/watch?v=Fd7wjZDoh7g)
+- What are URDFs. See [here](https://www.youtube.com/watch?v=CwdbsvcpOHM)
+- Working with robots in ROS (basics). See [here](https://www.youtube.com/watch?v=2lIV3dRvHmQ&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt)
+- Simulating robot kinematics in ROS. See [here](https://www.youtube.com/playlist?list=PLcGRzrc4DaVyt1RLw40FRTNIvHhwIlSNA)
+- IKfast Module in ROS is useful to solve inverse kinematics and customize your solution. See [here](https://openrave.org/docs/latest_stable/openravepy/ikfast/#ik-types)
+- Creating an IK Fast solution in ROS. See [here](https://wiki.ros.org/Industrial/Tutorials/Create_a_Fast_IK_Solution)
+- An approach to solve mazes in MATLAB. See [here](https://www.mathworks.com/matlabcentral/answers/711803-random-maze-solving-algorithm-with-matrix). [Watershed Transform method](https://www.mathworks.com/company/technical-articles/tips-and-tricks-solving-a-maze-with-the-watershed-transform.html). [BFS based maze solver](https://github.com/Mouad4399/-Maze-Solver-In-Matlab-Using-DFS-BFS).
+- An approach to solve mazes in Python. See [here](https://thecleverprogrammer.com/2021/01/26/maze-solver-with-python/). Recursivity and A* search see [here](https://www.laurentluce.com/posts/solving-mazes-using-python-simple-recursivity-and-a-search/)
 
 ## Project Details
 
@@ -79,6 +89,7 @@ Go through all the literature references. They'll be helpful in developing the p
 - Physical robot movements must be alike to the digital twin.
 - End effector must always maintain a safe distance vertical distance from the plastic board. (ideally between 10 to 20 centimeters).
 - End effector should follow a path as straight as possible, and should be similar to the expected solution path.
+- Your ingenuity of the maze solution approach is very important. There are several ways to solve the maze. Your code should work for all 4x4 rectangular mazes.
 - In addition to the above points, students will be judged on the basis of how efficiently they solve the problem. 
 - The reliability and robustness of the solution also matters especially when determining physical solutions by processing the image of the maze.
 - It is not necessary, but you should build fail-safes into your solution. For example: you could use a the escape key to make the robot return to a safe home position.
@@ -132,6 +143,9 @@ Ans. No. But it should at least produce the joint-angles for the way-points.
 
 **Q. How accurate should the robot movement be ?**\
 Ans. The end effector should roughly point on white region of the maze while navigating through the solution path. It is not expected to avoid collision with the maze but the robot movement must bear similarity to the expected solution path. 
+
+**Q. What approach should I use to solve the maze?**\
+Ans. This is a graduate class. Use any approach to solve the maze. There's some help available in the Literature Reference section to guide you. However, it is your choice on how to solve the maze. You will be judged on the basis of your approach. 
 
 **Q. How fast should the robot move?**\
 Ans. The end effector movement should be at a speed such that the maze is completed at a reasonable time. Keep the speed parameter between 300 - 500. 
