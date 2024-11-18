@@ -155,7 +155,8 @@ Ans. This is a graduate class. Use any approach to solve the maze. There's some 
 **Q. How fast should the robot move?**\
 Ans. The end effector movement should be at a speed such that the maze is completed at a reasonable time. Keep the speed parameter between 300 - 500. 
 
-**Q. Can I chose my own 4x4 maze and perform demonstration ?** \ 
+**Q. Can I chose my own 4x4 maze and perform demonstration?**\
+
 Ans. No. A random 4x4 maze will be provided to you with a start position decided by the examiner. It is expected that you produce a maze solution algorithm that works for all 4x4 mazes. Here are some [sample 4x4 mazes](). The 4x4 mazes provided in the demonstration will be similar. It is recommended that you take a print of the sample mazes for testing your solution. 
 
 **Q. For the project, is it necessary to use ArUco markers ?**\
