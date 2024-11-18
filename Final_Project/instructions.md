@@ -91,8 +91,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 ## Demonstration Judgement Criteria
 
-- ***At a minimum***, it should be possible to see the state of the robot at different waypoints in the digital twin. 
-- Physical robot movements must be alike to the digital twin.
+- ***At a minimum***, it should be possible to see the state of the robot at different waypoints in the digital twin and the physical robot movements must be alike to the digital twin.
 - End effector must always maintain a safe distance vertical distance from the plastic board. (ideally between 10 to 20 centimeters).
 - End effector should follow a path as straight as possible, and should be similar to the expected solution path.
 - Your ingenuity of the maze solution approach is very important. There are several ways to solve the maze. Your code should work for all 4x4 rectangular mazes.
