@@ -124,7 +124,7 @@ Total: 30 points
 - Record all information you need beforehand. 
 - Write error-proof code. 
 - Do not copy from others. Mistakes might cost you. 
-- Take printouts of the maze and test your algorithm several times on various 4x4 mazes. 
+- Take printouts of the maze (of the size of the plastic board) and test your algorithm several times on various 4x4 mazes. 
 - Operate the robot with care. Always ensure that your teammate assists in stopping the robot during emergency. 
 - Test the digital twin's results manually before running the socket program. 
 - Make sure to wait for the robot to complete the previous command before executing the next. Make use of the wait_command_done() command. Failing to do so might cause the robot to malfunction. 
