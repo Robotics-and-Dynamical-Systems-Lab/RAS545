@@ -20,9 +20,9 @@ This project will enable students to learn about robot path planning, image proc
 
 Go through all the literature references. They'll be helpful in developing the project. 
 
-- **MATLAB TCP/IP Communication**: [Learn More](https://www.mathworks.com/help/matlab/matlab-engine/tcp-ip-communication.html)
-- **ArUco Markers**: [Overview of ArUco Markers](https://www.vision.ee.ethz.ch/en/vision/software/aruco.html)
-- **OpenCV for ArUco Detection**: [OpenCV Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
+- MATLAB TCP/IP Communication: [Learn More](https://www.mathworks.com/help/matlab/matlab-engine/tcp-ip-communication.html)
+- ArUco Markers: [Overview of ArUco Markers](https://www.vision.ee.ethz.ch/en/vision/software/aruco.html)
+- OpenCV for ArUco Detection: [OpenCV Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
 - Learning Orbis's Robotics playlist for modeling robots in MATLAB. See [here](https://www.youtube.com/playlist?list=PLWF9TXck7O_ymYWT8Q33omPb5K-A5v4Ae)
 - Simcape Multibody simulation in MATLAB. See [here](https://www.youtube.com/watch?v=pDiwAA1cnb0&t=2283s)
 - Robot forward kinematics in MATLAB. See [here](https://www.youtube.com/watch?v=xpA8TKEMpMk)
@@ -39,7 +39,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 ### 1: Maze Generation and solving the maze
 
-1a. **Learn about generating a 4x4 Maze**: Use a [maze generation tool](https://www.mazegenerator.net/) to create a 4x4 maze.
+1a. **Learn about generating a 4x4 Maze**: Use the [maze generation tool](https://www.mazegenerator.net/) to create a 4x4 maze.
    - The maze should have a width and height of 4 cells each.
    - Inner width and inner height of the maze will be 0.
    - The maze can either start at the top or at the bottom **but NOT at the inner room**
@@ -91,8 +91,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 ## Demonstration Judgement Criteria
 
-- At a minimum, it should be possible to see the state of the robot at different waypoints in the digital twin. 
-- Physical robot movements must be alike to the digital twin.
+- ***At a minimum***, it should be possible to see the state of the robot at different waypoints in the digital twin and the physical robot movements must be alike to the digital twin.
 - End effector must always maintain a safe distance vertical distance from the plastic board. (ideally between 10 to 20 centimeters).
 - End effector should follow a path as straight as possible, and should be similar to the expected solution path.
 - Your ingenuity of the maze solution approach is very important. There are several ways to solve the maze. Your code should work for all 4x4 rectangular mazes.
@@ -124,7 +123,7 @@ Total: 30 points
 - Record all information you need beforehand. 
 - Write error-proof code. 
 - Do not copy from others. Mistakes might cost you. 
-- Take printouts of the maze and test your algorithm several times on various 4x4 mazes. 
+- Take printouts of the maze (of the size of the plastic board) and test your algorithm several times on various 4x4 mazes. 
 - Operate the robot with care. Always ensure that your teammate assists in stopping the robot during emergency. 
 - Test the digital twin's results manually before running the socket program. 
 - Make sure to wait for the robot to complete the previous command before executing the next. Make use of the wait_command_done() command. Failing to do so might cause the robot to malfunction. 
@@ -151,12 +150,13 @@ Ans. No. But it should at least produce the joint-angles for the way-points.
 Ans. The end effector should roughly point on white region of the maze while navigating through the solution path. It is not expected to avoid collision with the maze but the robot movement must bear similarity to the expected solution path. 
 
 **Q. What approach should I use to solve the maze?**\
-Ans. This is a graduate class. Use any approach to solve the maze. There's some help available in the Literature Reference section to guide you. However, it is your choice on how to solve the maze. You will be judged on the basis of your approach. 
+Ans. This is a graduate class. Use any approach to solve the maze. There's some help available in the Literature Reference section to guide you. However, it is your choice to decide how to solve the maze. You will be judged on the basis of your approach. 
 
 **Q. How fast should the robot move?**\
-Ans. The end effector movement should be at a speed such that the maze is completed at a reasonable time. Keep the speed parameter between 300 - 500. 
+Ans. The end effector movement should be at a speed such that the maze is completed at a reasonable time. We recommend to keep the speed parameter between 300 - 500. 
 
-**Q. Can I chose my own 4x4 maze and perform demonstration ?**\ 
+**Q. Can I chose my own 4x4 maze and perform demonstration ?**
+
 Ans. No. A random 4x4 maze will be provided to you with a start position decided by the examiner. It is expected that you produce a maze solution algorithm that works for all 4x4 mazes. Here are some [sample 4x4 mazes](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/tree/main/Final_Project/sample_mazes). The 4x4 mazes provided in the demonstration will be similar. It is recommended that you take a print of the sample mazes for testing your solution. 
 
 **Q. For the project, is it necessary to use ArUco markers ?**\
@@ -175,7 +175,7 @@ Ans. The minimum requirement to get a full score in the demonstration is to prod
 Ans. Yes. This is reviewed on case to case basis. 
 
 **Q. What happens if I am unable to produce a satisfactory demonstration and time runs out ?**\
-Ans. As the semester end deadline is nearing, the number of demonstration attempts are limited. if you are unable to produce a satisfactory demonstration, then you will be graded partially on the basis of the performance of the latest demonstration. 
+Ans. As the semester end deadline is nearing, the number of demonstration attempts are limited. if you are unable to produce a satisfactory demonstration, then you will be graded partially on the basis of the performance of the latest demonstration and canvas submission. 
 
 **Q. When do I submit the project on canvas ?**\
-Ans. Every student must individually submit all necessary files (mentioned in the submission requirements) by the deadline posted on canvas regarless of a satisfactory demonstration. Remember that the submission files require you to document and record your demonstration. So submitting a report with incomplete/no demonstration will lead to further loss of score. 
+Ans. Every student must individually submit all necessary files (mentioned in the submission requirements) by the deadline posted on canvas regardless of a satisfactory demonstration. Remember that the submission files require you to document and record your demonstration. So submitting a report with incomplete/no demonstration will lead to further loss of score. 
