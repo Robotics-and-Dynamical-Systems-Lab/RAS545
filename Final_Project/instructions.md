@@ -157,7 +157,7 @@ Ans. This is a graduate class. Use any approach to solve the maze. There's some 
 Ans. The end effector movement should be at a speed such that the maze is completed at a reasonable time. Keep the speed parameter between 300 - 500. 
 
 **Q. Can I chose my own 4x4 maze and perform demonstration ?**\ 
-Ans. No. A random 4x4 maze will be provided to you with a start position decided by the examiner. It is expected that you produce a maze solution algorithm that works for all 4x4 mazes. Here are some [sample 4x4 mazes](). The 4x4 mazes provided in the demonstration will be similar. It is recommended that you take a print of the sample mazes for testing your solution. 
+Ans. No. A random 4x4 maze will be provided to you with a start position decided by the examiner. It is expected that you produce a maze solution algorithm that works for all 4x4 mazes. Here are some [sample 4x4 mazes](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/tree/main/Final_Project/sample_mazes). The 4x4 mazes provided in the demonstration will be similar. It is recommended that you take a print of the sample mazes for testing your solution. 
 
 **Q. For the project, is it necessary to use ArUco markers ?**\
 Ans. No. Since the AIKit and the plastic board are kept fixed, it is not necessary to use ArUco markers. The camera zone can be mapped even without using ArUco markers. However, using ArUco markers can help in accurately mapping the camera zone. 
