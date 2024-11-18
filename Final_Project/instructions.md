@@ -20,9 +20,9 @@ This project will enable students to learn about robot path planning, image proc
 
 Go through all the literature references. They'll be helpful in developing the project. 
 
-- **MATLAB TCP/IP Communication**: [Learn More](https://www.mathworks.com/help/matlab/matlab-engine/tcp-ip-communication.html)
-- **ArUco Markers**: [Overview of ArUco Markers](https://www.vision.ee.ethz.ch/en/vision/software/aruco.html)
-- **OpenCV for ArUco Detection**: [OpenCV Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
+- MATLAB TCP/IP Communication: [Learn More](https://www.mathworks.com/help/matlab/matlab-engine/tcp-ip-communication.html)
+- ArUco Markers: [Overview of ArUco Markers](https://www.vision.ee.ethz.ch/en/vision/software/aruco.html)
+- OpenCV for ArUco Detection: [OpenCV Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
 - Learning Orbis's Robotics playlist for modeling robots in MATLAB. See [here](https://www.youtube.com/playlist?list=PLWF9TXck7O_ymYWT8Q33omPb5K-A5v4Ae)
 - Simcape Multibody simulation in MATLAB. See [here](https://www.youtube.com/watch?v=pDiwAA1cnb0&t=2283s)
 - Robot forward kinematics in MATLAB. See [here](https://www.youtube.com/watch?v=xpA8TKEMpMk)
