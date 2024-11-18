@@ -39,7 +39,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 ### 1: Maze Generation and solving the maze
 
-1a. **Learn about generating a 4x4 Maze**: Use a [maze generation tool](https://www.mazegenerator.net/) to create a 4x4 maze.
+1a. **Learn about generating a 4x4 Maze**: Use the [maze generation tool](https://www.mazegenerator.net/) to create a 4x4 maze.
    - The maze should have a width and height of 4 cells each.
    - Inner width and inner height of the maze will be 0.
    - The maze can either start at the top or at the bottom **but NOT at the inner room**
