@@ -52,7 +52,7 @@ Go through all the literature references. They'll be helpful in developing the p
 
 1b. **Solving the maze**: Students must determine an algorithm to solve the 4x4 maze
    - The algorithm to solve the maze must produce the physical waypoints for navigating the solution path from its image. Hence a physical interpretation of the robot's workspace must be obtained from pixel values of the solution path.
-   - The image below is a representation of a possible setup where the starting point is close top the robot and the end point is close to the camera stand of the AIKit. Students can choose their preferred way of setting up the AIKit.
+   - The image below is a representation of the top view of a possible setup where the starting point is close top the robot and the end point is close to the camera stand of the AIKit. Students can choose their preferred way of setting up the AIKit.
 
 <img src="https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/Final_Project/sample_mazes/new.png" alt="image" width="500" height="auto">
 
